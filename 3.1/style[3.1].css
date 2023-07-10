@@ -1,0 +1,38 @@
+h1 {
+    background-color: green;
+}
+
+header h2 {
+    color:red;
+    text-align: right;
+}
+
+a {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#skills li {
+    background-color: azure;
+}
+
+#skills .website {
+    background-color: yellow;
+}
+    
+#skills .javascript {
+    font-size: 32px;
+}
+
+p {
+    font-family: "Calibri", 'Trebuchet MS', sans-serif;
+}
+
+
+/*
+.class = select class
+
+#id = select id
+
+Also, ";" in CCS are delimiter
+delimiters denotes the end of a rule
+*/
