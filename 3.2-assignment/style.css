@@ -16,6 +16,7 @@ h2 {
 .reasons {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   background-color: yellow;
+  font-variant:small-caps;
 }
 
 ol {
@@ -28,11 +29,12 @@ ol {
 
 .reviews {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-variant: small-caps;
 }
 
 img {
   size-adjust: 50%;
-  width: 25%;
+  width: 20%;
 }
 
 .reviewers {
