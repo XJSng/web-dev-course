@@ -4,10 +4,33 @@
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- This viewport meta tag represent the screen size allocation -->
     <title>My Profile</title>
     <link rel="stylesheet" href="./style.css" />
   </head>
   <body>
-   
+    <div id="container">
+        <section id="avatar-section">
+            <h1>My Profile</h1>
+            <div id="picture-container">
+                <picture>
+                    <source srcset="./images/XJ-2.jpg" media="(max-width:600px)">
+                    <source srcset="./images/XJ-3.jpg" media="(max-width:1500px)">
+                    <img id="avatar" src="./images/XJ.jpeg" alt="A photo of XJ">
+                </picture>
+            </div>
+        </section>
+        <section id="writeup-section">
+            <p class="responsive-font">Hello there! My name is XJ. I am a Software Engineer.</p>
+                <p>My hobbies are:
+                    <ul>
+                        <li>Watching television</li>
+                        <li>Sleeping on the weekend</li>
+                        <li>Reading new books</li>
+                    </ul>
+                </p> 
+                <div class="social">You can add me on <a href="https://www.linkedin.com/in/xu-jie-sng/">LinkedIn</a></div>
+        </section>
+    </div>
   </body>
 </html>
