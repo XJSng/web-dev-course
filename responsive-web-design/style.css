@@ -1,8 +1,3 @@
-@media screen and (max-width: 600px) {
-    #container {
-      flex-direction: column;
-    }
-  }
 
 #avatar {
     width: 400px;
@@ -32,6 +27,7 @@ see also: vh (viewport height)
     justify-content: center;
     align-items: baseline;
     flex-direction: row;
+    background-color: lightyellow;
 }
 
 #picture-container {
@@ -56,10 +52,20 @@ see also: vh (viewport height)
 }
 
 body {
-    display:flex;
+    display: flex;
     justify-content: center;
 }
 
+
+/*  Media query:
+    A special CSS rule that only apply when certain screen sizes occur
+*/
+@media screen and (max-width: 600px) {
+    #container {
+      flex-direction: column;
+      background-color: skyblue;
+    }
+  }
 
 /*
 Photo sizing:
@@ -69,6 +75,9 @@ Usually, you can use a .png file in a thumbnail, so that user can click through 
 
 2) You can go under the Google dev tools and "Google lighthouse" for fine tuning
 
+THE LOCATION OF THE MEDIA QUERY AFFECTS THE CODE
+
+Also, mobile design are vertically oriented but website design are horizontally oriented
 
 picture {
     border-radius: 50%;
