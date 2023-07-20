@@ -1,24 +1,19 @@
-/* @media screen and (max-width: 600px) {
-    body {
-      background-color: blue;
-    }
-
-    img {
-        display:hidden;
+@media screen and (max-width: 600px) {
+    #container {
+      flex-direction: column;
     }
   }
-
-*/
-
 
 #avatar {
     width: 400px;
     border-radius: 50%;
-    max-width: 50%;
+    max-width: 100%;
 }
 
-p {
-margin: 20px 50px 20px 50px;
+h1 {
+    font-size: 3vw;
+    display: flex;
+    justify-content: center;
 }
 
 .responsive-font {
@@ -32,12 +27,26 @@ Width of the user's screen
 see also: vh (viewport height)
 */
 
-ul{
-margin-left: 80px;;
+#container {
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    flex-direction: row;
 }
 
-li {
-    padding: 4px;
+#picture-container {
+    display:flex;
+    justify-content: center;
+}
+
+#avatar-section {
+    flex-basis: 50%;
+    padding: 10px;
+}
+
+#writeup-section {
+    flex-basis: 50%;
+    padding: 10px;
 }
 
 .social {
@@ -48,9 +57,17 @@ li {
 
 body {
     display:flex;
-    flex-direction: column;
     justify-content: center;
 }
+
+
+/*
+Photo sizing:
+1) File type: jpeg vs png
+jpeg is faster than png files.
+Usually, you can use a .png file in a thumbnail, so that user can click through to it and load the large image
+
+2) You can go under the Google dev tools and "Google lighthouse" for fine tuning
 
 
 picture {
@@ -61,11 +78,4 @@ img {
     border-radius: 50%;
 }
 
-/*
-Photo sizing:
-1) File type: jpeg vs png
-jpeg is faster than png files.
-Usually, you can use a .png file in a thumbnail, so that user can click through to it and load the large image
-
-2) You can go under the Google dev tools and "Google lighthouse" for fine tuning
 */
