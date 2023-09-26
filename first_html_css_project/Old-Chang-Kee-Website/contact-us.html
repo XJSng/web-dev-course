@@ -1,0 +1,271 @@
+<html>
+  <!DOCTYPE html>
+  <html>
+    <head>
+      <meta charset="utf-8" />
+      <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+      <title>Old Chang Kee</title>
+      <meta name="description" content="" />
+      <meta name="viewport" content="width=device-width, initial-scale=1" />
+      <link
+        rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+        integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N"
+        crossorigin="anonymous"
+      />
+      <link rel="stylesheet" href="style.css" />
+      <link rel="stylesheet" href="https://use.typekit.net/jse8lat.css" />
+    </head>
+    <body>
+      <!-- Navigation Bar -->
+      <nav class="navbar navbar-expand-md navbar-light bg-warning">
+        <a class="navbar-brand" href="index.html"
+          ><img
+            id="small-logo"
+            src="/images/OCK-LOGO.jpeg"
+            alt="Old Chang Kee Logo"
+        /></a>
+        <button
+          class="navbar-toggler btn-outline-light"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarNavDropdown"
+          aria-controls="navbarNavDropdown"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon btn-outline-light"></span>
+        </button>
+        <div
+          class="collapse navbar-collapse justify-content-end"
+          id="navbarNavDropdown"
+        >
+          <ul class="navbar-nav">
+            <li class="nav-item active">
+              <a
+                id="menu"
+                class="nav-link bg-white text-dark"
+                href="index.html#menu-section"
+                >Menu<span class="sr-only">(current)</span></a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                id="outlets"
+                class="nav-link bg-white text-dark"
+                href="index.html#outlet-section"
+                >Our Outlets</a
+              >
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                id="about-us"
+                class="nav-link bg-white text-dark"
+                href="about-us.html"
+              >
+                About Us
+              </a>
+            </li>
+
+            <li class="nav-item dropdown">
+              <a
+                id="contact-us"
+                class="nav-link dropdown-toggle bg-white text-dark"
+                href="contact-us-section"
+                role="button"
+                data-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Contact Us
+              </a>
+              <div class="dropdown-menu">
+                <a class="dropdown-item" href="contact-us.html#feedback"
+                  >Feedback</a
+                >
+                <a class="dropdown-item" href="contact-us.html#careers"
+                  >Careers</a
+                >
+              </div>
+            </li>
+            <li class="nav-item">
+              <a
+                id="order-now"
+                class="nav-link bg-white text-dark"
+                href="index.html#order-section"
+                >Order Now</a
+              >
+            </li>
+          </ul>
+        </div>
+      </nav>
+      <main>
+        <!-- Feedback form section -->
+        <section id="feedback" class="container">
+          <h1>Feedback!</h1>
+          <p>
+            We value your feedback, compliments and suggestions. We are
+            committed to provide the highest standards with the best of our
+            abilities to meet your requirements. Do drop us an email at
+            contact@oldchangkee.com or complete this form and we will get back
+            to you in 3 working days.
+          </p>
+          <form>
+            <div class="row">
+              <div class="col">
+                <label for="FormControlInput1">First Name</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  placeholder="Your given name"
+                />
+              </div>
+              <div class="col">
+                <label for="FormControlInput2">Last Name</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  placeholder="Your family name"
+                />
+              </div>
+            </div>
+            <div class="m-3"></div>
+            <div class="form-group">
+              <label for="exampleFormControlInput1">Your Email Address</label>
+              <input
+                type="email"
+                class="form-control"
+                id="FormControlInput3"
+                placeholder="YoursTruly@gmail.com"
+              />
+            </div>
+            <div class="form-group">
+              <label for="exampleFormControlTextarea1">Your Feedback</label>
+              <textarea
+                class="form-control"
+                id="exampleFormControlTextarea1"
+                rows="3"
+                placeholder="Don't be shy with your feedback"
+              ></textarea>
+              <div class="text-right m-3">
+                <button type="submit" class="btn btn-warning">Submit</button>
+              </div>
+            </div>
+          </form>
+        </section>
+
+        <!-- Career options section -->
+        <section id="careers" class="bg-warning p-3 text-center">
+          <div class="container">
+            <h1>Careers</h1>
+            <p>
+              Come and join our family! Immediate vacancy is NOW available. Call
+              us now for the zone nearest to you or fill up this recruitment
+              form
+            </p>
+            <!-- Modified ChatGPT form-->
+            
+            <form
+              action="form-submission.html"
+              method="get"
+              class="bg-white p-3 rounded"
+            >
+            <!-- Send Form to form-submission.html page-->
+              <h3>Fill up this Recruitment form</h3>
+              <div class="row">
+                <div class="col-md-6 mb-3">
+                  <label for="first_name" class="form-label">First Name</label>
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="first_name"
+                    name="first_name"
+                    required
+                  />
+                </div>
+                <div class="col-md-6 mb-3">
+                  <label for="last_name" class="form-label">Last Name</label>
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="last_name"
+                    name="last_name"
+                    required
+                  />
+                </div>
+
+                <div class="col">
+                  <label for="email" class="form-label">Email:</label>
+                  <input
+                    type="email"
+                    class="form-control"
+                    id="email"
+                    name="email"
+                    required
+                  />
+                </div>
+              </div>
+              <div class="col">
+                <label for="phone" class="form-label">Phone Number:</label>
+                <input
+                  type="tel"
+                  class="form-control"
+                  id="phone"
+                  name="phone"
+                  required
+                />
+              </div>
+
+              <div class="col">
+                <label for="position" class="form-select pt-3"
+                  >Position Applied For:</label
+                >
+                <select class="form-select" aria-label="Default select example">
+                  <option selected>Select One Option</option>
+                  <option value="kitchen-helper">Kitchen Helper</option>
+                  <option value="sales-assistant">Sales Assistant</option>
+                  <option value="sales-manager">Sales Manager</option>
+                </select>
+              </div>
+
+              <div class="mb-3">
+                <label for="resume" class="form-label">Upload Resume:</label>
+                <input
+                  type="file"
+                  class="form-control"
+                  id="resume"
+                  name="resume"
+                  accept=".pdf,.doc,.docx,.png"
+                />
+              </div>
+
+              <button type="submit" class="btn btn-warning">
+                Submit Application
+              </button>
+            </form>
+          </div>
+        </section>
+      </main>
+
+      <footer class="bg-warning text-center d-flex">
+        <div class="container">
+          <p>&copy; 2023 Old Chang Kee. All rights reserved.</p>
+        </div>
+      </footer>
+      <script
+        src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"
+      ></script>
+      <script
+        src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct"
+        crossorigin="anonymous"
+      ></script>
+      <script
+        src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"
+      ></script>
+    </body>
+  </html>
+</html>

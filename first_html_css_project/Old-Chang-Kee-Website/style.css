@@ -1,0 +1,185 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "futura-pt", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+/* change all paragraph font to verdana */
+p {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1 {
+  margin-left: 1rem;
+  margin-top: 1rem;
+}
+
+/* logo css */
+#small-logo {
+  box-sizing: border-box;
+  width: 100%;
+  height: 100px;
+  background-color: #fff;
+  padding: 0 30px;
+  border-radius: 5px;
+  display: block;
+}
+
+/* navbar button css */
+#menu,
+#outlets,
+#about-us,
+#contact-us,
+#order-now {
+  border-radius: 10px;
+  padding: 10px;
+  margin-right: 20px;
+  text-align: center;
+  font-size: medium;
+}
+
+.nav-link {
+  margin: 5px;
+  text-align: right;
+}
+
+/* navbar position sticky css */
+.navbar {
+  position: sticky;
+  top: 0px;
+  z-index: 99;
+}
+
+/* menu container css */
+.menu {
+  margin: 0 15px;
+  box-sizing: border-box;
+}
+
+/* carousel css */
+div.carousel-inner {
+  width: 100%;
+  height: 15%;
+  max-height: 500px;
+}
+
+div.carousel-item img {
+  vertical-align: bottom;
+  position: relative;
+  display: table-cell;
+}
+
+/* menu item css */
+.card img {
+  object-fit: cover;
+  width: 100%;
+  height: 250px;
+  vertical-align: bottom;
+}
+
+/* card css */
+.card img {
+  flex-basis: 1;
+}
+.card-body {
+  flex-basis: 200px;
+  flex-grow:auto;
+}
+
+/* card margins */
+#traditional-favourites,
+#seafood-favourites,
+#chicken-favourites,
+#specials {
+  margin: 7px;
+  box-sizing: border-box;
+}
+
+/* outlet section css */
+section.outlets,
+section.menu,
+section.order {
+  padding: 20px 0;
+}
+
+/* history section css (Flexbox example) */
+.history-section {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.year-1956,
+.year-1986,
+.rapid-growth {
+  margin: 5px 10px;
+}
+
+/* awards section css */
+.influential-awards {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+#influential-brands {
+  display: inline-block;
+  padding: 0;
+}
+
+#influential-brands li {
+  list-style-type: none;
+}
+
+
+#delivery-platform{
+    display: flex;
+    flex-shrink: 1;
+    justify-content: space-evenly;
+}
+
+/* Delivery Button Colors */
+.grab {
+  background-color: #00b24f;
+}
+.grab:hover {
+  background-color: #00f56e;
+}
+
+.foodpanda {
+  background-color: #d70f64;
+}
+.foodpanda:hover {
+  background-color: #f02d7f;
+}
+
+.deliveroo {
+  background-color: #00cdbc;
+}
+
+.deliveroo:hover {
+  background-color: #0affeb;
+}
+
+.shopee {
+  background-color: #ee4d2d;
+}
+
+.shopee:hover {
+  background-color: #f16f55;
+}
+
+/* footer css */
+footer {
+  height: 75px;
+  margin-top: 0px;
+  padding: 50px 30px 30px;
+  box-sizing: border-box;
+  align-items: center;
+}
+
+/* Media Query */
+
